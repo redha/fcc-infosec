@@ -2,6 +2,7 @@ const express = require('express');
 const { frameguard } = require('helmet');
 const helmet = require('helmet');
 const app = express();
+var bcrypt = require("bcrypt");
 
 // USIING Helmet ...
 
